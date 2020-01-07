@@ -16,7 +16,7 @@
   ]
 %}
 
-<a href="{{ url }}" class="teaser-image" style="background-image: url({{image}}); background-position: {%- if position -%}{{ position }}{% else %}75% 25%{%- endif -%};"><img src="{{image}}" /></a>
+<a href="{{ url }}" class="teaser-image" style="background-image: url({{image}}); background-position: {%- if position -%}{{ position }}{% else %}75% 25%{%- endif -%}; display: block;"></a>
 
 <article{{ attributes.addClass(classes) }}>
   <div class="fields">
